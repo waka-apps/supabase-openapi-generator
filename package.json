@@ -1,0 +1,22 @@
+{
+  "name": "supabase-openapi-generator",
+  "bin": {
+    "supabase-openapi-generator": "bin/index.mjs"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.29.4",
+    "axios": "^0.25.0",
+    "commander": "^9.0.0"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^5.1.1"
+  }
+}
