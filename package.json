@@ -1,15 +1,15 @@
 {
   "name": "supabase-openapi-generator",
+  "description": "Tool for generating schema from Supabase",
   "bin": {
     "supabase-openapi-generator": "bin/index.mjs"
   },
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "waka-apps <waka.apps@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@supabase/supabase-js": "^1.29.4",
@@ -18,5 +18,9 @@
   },
   "devDependencies": {
     "openapi-typescript": "^5.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waka-apps/supabase-openapi-generator"
   }
 }
